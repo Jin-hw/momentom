@@ -14,8 +14,7 @@ function deleteToDo(event){
         return toDo.id !== parseInt(li.id);
     });
     toDos = cleanToDos;
-    saveToDos;
-
+    saveToDos();
 }
 
 function saveToDos(){
